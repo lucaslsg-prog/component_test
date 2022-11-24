@@ -56,8 +56,8 @@ class Instcontroller:
     def buscar (self, nome):
         instrutor1 = Instrutor("João", "joao@test.com", "engenheiro de software", "teste",True)
         if (nome == instrutor1.nome):
-            nome = instrutor1.get_nome
-            email = instrutor1.get_email
+            nome = instrutor1.get_nome()
+            email = instrutor1.get_email()
             #print ("Instrutor: ="+nome+ " "+email)
             msg = "Instrutor"+nome+email
         else:

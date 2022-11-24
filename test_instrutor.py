@@ -87,10 +87,10 @@ def test_edit_inst_nao_encontrado():
 
 
 ########## TESTES DO METODO buscar instrutor ################################
-# def test_busca_inst_success():
-#     success_msg = "InstrutorJoãojoao@test.com"
-#     resultado = new_inst.buscar("João")
-#     assert(resultado==success_msg)
+def test_busca_inst_success():
+    success_msg = "InstrutorJoãojoao@test.com"
+    resultado = new_inst.buscar("João")
+    assert(resultado==success_msg)
 
 def test_busca_inst_nao_encontrado():
     success_msg = "instrutor não encontrado"
